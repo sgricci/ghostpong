@@ -1,1 +1,1 @@
-# easeljs-game-skelley
+# Ghost Pong v1.0
