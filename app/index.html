@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>EaselJS Game Skelley</title>
+		<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+			html {
+				background-color: #000;
+			}
+			canvas {
+				border: 1px solid #eee;
+				width: 640px;
+				height: 480px;
+
+				position: absolute;
+				left: 50%;
+				margin-left: -320px;
+				top: 50%;
+				margin-top: -240px;
+			}
+			div {
+				width: 100%;
+			}
+			.img {
+				text-align: center;
+			}
+			.img img {
+				width: 212px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="img">
+			<img src="img/logo.png" />
+		</div>
+		<div class="canvas">
+			<canvas id="main" width="640" height="480">Sorry, your browser does not support canvas.</canvas>
+		</div>
+		<script src="scripts/easeljs-0.8.0.combined.js"></script>
+		<script src="scripts/app.bundle.js"></script>
+	</body>
+</html>

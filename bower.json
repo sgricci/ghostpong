@@ -1,0 +1,13 @@
+{
+	"name": "easeljs-game-skelley",
+	"version": "0.0.0",
+	"authors": [
+		"Space Ghost <sg@ghostlandia.com>"
+	],
+	"description": "Just another game skeleton",
+	"main": "index.html",
+	"license": "None",
+	"dependencies": {
+		"easeljs": "*"
+	}
+}

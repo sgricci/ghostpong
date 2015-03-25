@@ -1,0 +1,16 @@
+{
+	"name": "easeljs-game-skelley",
+	"version": "0.0.0",
+	"description": "Just another game skeleton",
+	"main": "index.html",
+	"author": "Space Ghost",
+	"license": "None",
+	"devDependencies": {
+		"grunt": "^0.4.5",
+		"browserify": "^4.1.11",
+		"grunt-browserify": "^2.1.0",
+		"grunt-contrib-watch": "^0.6.1",
+		"grunt-contrib-copy": "^0.5.0",
+		"grunt-contrib-connect": "^0.8.0"
+	}
+}
